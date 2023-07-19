@@ -1,0 +1,15 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_face": "JetBrains mono",
+	"font_size": 15,
+	"rulers": [70],
+	"ruler_style": "stippled",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true,
+	"highlight_line": true,
+	"caret_style": "smooth",
+	"bold_folder_labels": false,
+}
