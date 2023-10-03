@@ -1,0 +1,19 @@
+{
+	"cmd": ["python3", "$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.python",
+	"env": {"PYTHONIOENCODING": "utf-8", 
+			"PYGAME_HIDE_SUPPORT_PROMPT": "1"},
+	"quiet": false,
+	"variants":
+	[
+		{
+			"name": "Run from INPUT",
+			"shell_cmd": "python3 \"$file\" < input.txt"
+		},
+		{
+			"name": "Run from venv",
+			"shell_cmd": "venv/bin/python3.11 -u \"$file\""
+		}
+	]
+}

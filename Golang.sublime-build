@@ -1,0 +1,12 @@
+{
+    "cmd": ["go", "run", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": false,
+    "variants":
+    [
+        {
+            "name": "Run from INPUT",
+            "shell_cmd": "go run \"$file\" < input.txt"
+        }
+    ]
+}
