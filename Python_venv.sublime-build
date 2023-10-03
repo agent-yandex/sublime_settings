@@ -1,5 +1,0 @@
-{
-    "cmd": ["virtualenv/bin/python3.10", "-u", "$file"],
-    "selector": "source.python",
-    "file_regex":  "^\\s*File \"(...*?)\", line ([0-9]*)"
-}
