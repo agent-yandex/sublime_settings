@@ -13,7 +13,7 @@
 1. Устанавливаем `Package Control`
 2. Пункт `Package Control Install Package` - установка новых пакетов
 
-**Мои пакеты**
+**Установленные пакеты**
 * A File Icon
 * AutoPep8
 * ColorHelper
@@ -21,6 +21,7 @@
 * Emmet
 * Terminus
 * AdvancedNewFile
+* LSP
 
 ## Установка настроек
 
